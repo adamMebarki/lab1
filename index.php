@@ -7,7 +7,19 @@
     <body>
         <p>
             <?php
-               echo "it zorks";
+                $myage=24;
+               if($myage<=16)
+               {
+                   echo "buy specs";
+               }
+                elseif($myage>=18 and $myage<21)
+                {
+                    echo "buy mugs";
+                }
+                elseif($myage>=21)
+                {
+                    print "sausage rolls";
+                }
             ?>
         </p>
 
