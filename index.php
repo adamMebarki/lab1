@@ -108,19 +108,19 @@
                 print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name) + "win all of the specs<br>";
+                print strtoupper($name); print "win all of the specs<br>";
                 unset($arra[$value]);
 
                 print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name) + "win all of the mugs<br>";
+                print strtoupper($name); print "win all of the mugs<br>";
                 unset($arra[$value]);
 
                 print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name) + "win all of the sausage rolls<br>";
+                print strtoupper($name); print "win all of the sausage rolls<br>";
                 unset($arra[$value]);
 
             ?>
