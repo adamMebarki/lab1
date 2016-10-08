@@ -55,7 +55,6 @@
             $provisionActivity[1]="hugs";
             unset($provisionActivity[2]);
 
-            $provisionActivity=array("specs","mugs","sausage rolls");
             foreach($provisionActivity as $x){
                 print("<p>$x</p>");
             }
@@ -66,12 +65,13 @@
             <?php
                 /* for loop exercise */
                 for($i=2;$i<31;$i++){
-                    if($i%2==0){
-                        print "On the $i of the month specs are available bouyachaka<br>";
+                    if($i%4==0){
+                        print "On the $i of the month specs and sausage rolls are available<br>";
                     }elseif($i%3==0){
                         print "On the $i of the month mugs are available bouyachaka<br>";
-                    }elseif ($i%4==0){
-                        print "On the $i of the month specs and sausage rolls are available<br>";
+                    }elseif ($i%2==0){
+
+                        print "On the $i of the month specs are available bouyachaka<br>";
                     }else{
                         print "On the $i of the month no products are available bouyachaka<br>";
                     }
