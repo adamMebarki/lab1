@@ -29,10 +29,15 @@
                 switch($wantedGood){
                     case "specs":
                         print "you can buy specs bouyachaka";
+                        break;
                     case "mugs":
                         print "You have to be 18 to buy mugs bouyachaka";
+                        break;
                     case "sausage rolls":
                         print "You have to be 21 to buy sausages rolls bouyachaka";
+                        break;
+                    default:
+                        print "bad luck bouyachaka";
                 }
             ?>
         </p>
