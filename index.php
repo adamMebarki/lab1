@@ -7,6 +7,7 @@
     <body>
         <p>
             <?php
+                /* If else statement*/
                 $myage=24;
                if($myage<=16)
                {
@@ -22,6 +23,18 @@
                     print "Bouyachaka";                }
             ?>
         </p>
-
+        <p>
+            <?php
+                $wantedGood="sausages rolls";
+                switch($wantedGood){
+                    case "specs":
+                        echo "you can buy specs bouyachaka";
+                    case "mugs":
+                        "You have to be 18 to buy mugs bouyachaka";
+                    case "sausage rolls":
+                        "You have to be 21 to buy sausages rolls bouyachaka";
+                }
+            ?>
+        </p>
     </body>
 </html>
