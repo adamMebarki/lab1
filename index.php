@@ -28,11 +28,11 @@
                 $wantedGood="sausages rolls";
                 switch($wantedGood){
                     case "specs":
-                        echo "you can buy specs bouyachaka";
+                        print "you can buy specs bouyachaka";
                     case "mugs":
-                        echo "You have to be 18 to buy mugs bouyachaka";
+                        print "You have to be 18 to buy mugs bouyachaka";
                     case "sausage rolls":
-                        echo "You have to be 21 to buy sausages rolls bouyachaka";
+                        print "You have to be 21 to buy sausages rolls bouyachaka";
                 }
             ?>
         </p>
