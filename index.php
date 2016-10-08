@@ -78,5 +78,52 @@
                 }
             ?>
         </p>
+        <p>
+
+            <br> while loop exercise <br>
+            <?php
+
+            /* while loop exercise
+            $i=0;
+            $mugs=7;
+            $sausage_rolls=7;
+            $specs=7;
+            do{
+            $i++;
+            $todaygood = rand(0,2);
+             /*
+                switch case 0/1/2 -> produit - 1
+
+            }while($mugs!=0 and $specs!=0 and $sausage_rolls!=0 or $i==30)
+            */
+            ?>
+        </p>
+
+        <p>
+            <br> array exercise 2 <br>
+            <?php
+                $arra=array("a","n","y","t","g","l","z","i","h","u","r");
+                sort($arra);
+                $value=rand(0,count($arra));
+                $name=$arra[$value];
+                print strtoupper($name);
+                print "$name win all of the specs";
+                unset($arra[$value]);
+                $value=rand(0,count($arra));
+                $name=$arra[$value];
+                print strtoupper($name);
+                print "$name win all of the mugs";
+                unset($arra[$value]);
+                $value=rand(0,count($arra));
+                $name=$arra[$value];
+                print strtoupper($name);
+                print "$name win all of the sausage rolls";
+                unset($arra[$value]);
+
+            ?>
+        </p>
+
+
+
     </body>
 </html>
