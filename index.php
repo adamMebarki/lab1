@@ -30,9 +30,9 @@
                     case "specs":
                         echo "you can buy specs bouyachaka";
                     case "mugs":
-                        "You have to be 18 to buy mugs bouyachaka";
+                        echo "You have to be 18 to buy mugs bouyachaka";
                     case "sausage rolls":
-                        "You have to be 21 to buy sausages rolls bouyachaka";
+                        echo "You have to be 21 to buy sausages rolls bouyachaka";
                 }
             ?>
         </p>
