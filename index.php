@@ -104,20 +104,23 @@
             <?php
                 $arra=array("a","n","y","t","g","l","z","i","h","u","r");
                 sort($arra);
+
+                print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name);
-                print "$name win all of the specs";
+                print strtoupper($name) + "win all of the specs<br>";
                 unset($arra[$value]);
+
+                print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name);
-                print "$name win all of the mugs";
+                print strtoupper($name) + "win all of the mugs<br>";
                 unset($arra[$value]);
+
+                print count($arra);
                 $value=rand(0,count($arra));
                 $name=$arra[$value];
-                print strtoupper($name);
-                print "$name win all of the sausage rolls";
+                print strtoupper($name) + "win all of the sausage rolls<br>";
                 unset($arra[$value]);
 
             ?>
